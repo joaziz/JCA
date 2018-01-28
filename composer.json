@@ -1,0 +1,17 @@
+{
+  "name": "root/jca",
+  "authors": [
+    {
+      "name": "Yousif Aziz",
+      "email": "yousif.aziz@hive-ad.com"
+    }
+  ],
+  "require": {
+    "symfony/console": "^4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "JCA\\":"./"
+    }
+  }
+}
